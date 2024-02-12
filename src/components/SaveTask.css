@@ -1,0 +1,53 @@
+.saveTask_form {
+  display: flex;
+  flex-direction: column;
+  background-color: #33c7b3d5;
+  height: fit-content;
+  padding: 20px;
+  box-shadow: 10px 10px 14px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.saveTask_input {
+  margin-bottom: 8px;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  color: #213547;
+  font-weight: 500;
+  font-size: 18px;
+  border: 2px solid transparent;
+  transition: 0.4s;
+}
+.saveTask_input:focus {
+  border: 2px solid #005a60;
+  outline: none;
+}
+
+.saveTask_btn {
+  padding: 8px;
+  background-color: #005a60;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.4s ease;
+  outline: none;
+}
+
+@keyframes clickAnimation {
+  0% {
+    background-color: #005a60;
+  }
+
+  60% {
+    background-color: #0e3e42;
+  }
+
+  100% {
+    background-color: #005a60;
+  }
+}
+
+.saveTask_btn:active {
+  animation: clickAnimation 0.3s ease;
+}

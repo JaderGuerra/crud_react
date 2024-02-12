@@ -1,0 +1,15 @@
+* {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /*  color: #213547; */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+
+h2 {
+  text-align: center;
+  padding: 1.5em 0;
+}
+
+

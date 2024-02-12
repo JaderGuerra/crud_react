@@ -1,0 +1,65 @@
+.task_list {
+  background-color: #33c7b3d5;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.task_list_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  background-color: #005a60;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+
+.task_list_item_input {
+  margin-right: 10px;
+}
+
+.task_list_item_label {
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.no_btn {
+  appearance: none;
+  background: transparent;
+  border: none;
+}
+
+.saveTask_btn-action {
+  padding: 8px;
+  background-color: #28a745;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.4s ease;
+  outline: none;
+}
+.saveTask_btn-action-save {
+  background-color: #28a745;
+  margin-right: 10px;
+}
+.saveTask_btn-action-cancel {
+  background-color: #ff3d46;
+}
+
+.task_complete {
+  font-style: italic;
+  text-decoration: line-through;
+  color: #a9a3a3;
+}

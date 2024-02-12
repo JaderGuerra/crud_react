@@ -1,0 +1,22 @@
+.content {
+  height: 100vh;
+  background-image: linear-gradient(
+    to right top,
+    #053037,
+    #005a60,
+    #008984,
+    #00b9a0,
+    #12ebb2
+  );
+
+  grid-gap: 1em;
+}
+
+@media only screen and (min-width: 700px) {
+  .content {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 420px));
+    justify-content: center;
+    grid-gap: 4em;
+  }
+}
